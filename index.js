@@ -7,11 +7,11 @@ function theBeatlesPlay(musicians, instruments) {
   return theBeatles
 }
 
-function johnLennonFacts(facts) {
+function johnLennonFacts(johnLennonFacts) {
   var excitedFacts = new Array()
   let i = 0
-  while (i <= facts.length) {
-    excitedFacts.push(facts[i] + "!!!");
+  while (i <= johnLennonFacts.length) {
+    excitedFacts.push(johnLennonFacts[i] + "!!!");
     i += 1
   }
   return excitedFacts
