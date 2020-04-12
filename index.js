@@ -6,3 +6,13 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return theBeatles
 }
+
+function johnLennonFacts(facts) {
+  let excitedFacts = []
+  let i = 0
+  while (i <= facts.length) {
+    excitedFacts[i] = `${facts[i]}!!!`
+    i += 1
+  }
+  return excitedFacts
+}
